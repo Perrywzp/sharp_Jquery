@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body,p,div{
+    font-size: 12px;
+    font-family: 微软雅黑;
+}
+
+.SubCategoyBox{
+    width:80%;
+    height:auto;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+.SubCategoyBox ul{
+    min-height: 20px;
+    overflow: hidden;
+}
+.SubCategoyBox ul>li{
+    float: left;
+    width:33%;
+    line-height: 28px;
+    text-align: center;
+    list-style: none;
+}
+.SubCategoyBox ul>li.promoted,
+.SubCategoyBox ul>li.promoted a{
+    color:red;
+}
+.showmore{
+    width:180px;
+    height:28px;
+    line-height: 28px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 20px auto;
+}
